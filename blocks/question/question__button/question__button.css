@@ -1,0 +1,13 @@
+@import url("./question__button_disabled/question__button_disabled.css");
+
+.question__button {
+  background-color: #6979f8;
+  font-size: 17px;
+  line-height: 22px;
+  color: #fff;
+  border: 0;
+}
+
+.question__button:hover {
+  opacity: 0.8;
+}

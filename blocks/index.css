@@ -1,0 +1,11 @@
+@import url("./question/question.css");
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+
+.body {
+  font-family: "Roboto";
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}

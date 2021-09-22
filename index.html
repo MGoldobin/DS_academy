@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DS-academy</title>
+	<link rel="stylesheet" href="./blocks/index.css">
+	<script async src="./index.js"></script>
+</head>
+<body class="body">
+	<div class="question">
+		<form action="#" class="question__form">
+			<h2 class="question__title">Задать вопрос</h2>
+			<input class="question__input question__form-item" type="text" name="name" id="questionName" placeholder="Фамилия Имя Отчество *" pattern="[А-Яа-я -]+$">
+			<input class="question__input question__form-item" type="text" name="phone" id="questionNumber" placeholder="Телефон *" pattern="[0-9 +-]+$"> 
+			<input class="question__input question__form-item" type="email" name="email" id="questionEmail" placeholder="Email">
+			<button class="question__button question__form-item" type="submit">ОТПРАВИТЬ ЗАПРОС</button>
+		</form>
+	</div>
+</body>
+</html>

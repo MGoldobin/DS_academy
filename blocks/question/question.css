@@ -1,0 +1,14 @@
+@import url("./question__from/question__from.css");
+@import url("./question__title/question__title.css");
+@import url("./question__input/question__input.css");
+@import url("./question__button/question__button.css");
+@import url("./question__form-item/question__form-item.css");
+
+.question {
+  background: #f7f5f9;
+  border-radius: 12px;
+  width: 480px;
+  height: fit-content;
+  margin: 30px auto 0;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+}
